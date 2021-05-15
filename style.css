@@ -1,1 +1,53 @@
-
+.shadow {
+  color:green;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-shadow: 2px 2px lightgreen;
+}
+#One {
+  color:purple;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+ p {
+  color: orange;
+  font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+  color: green;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+.First {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}
+div p {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+}
+div ~ h2 {
+  text-decoration-style: dotted;
+}
+.shadow + p {
+  color: teal;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+.class5 {
+  color: teal;
+  font-family:'Courier New', Courier, monospace;
+}
+div {
+  background-color: #ffe6c2;
+  border-style: solid;
+  border-color: #a10202;
+}
